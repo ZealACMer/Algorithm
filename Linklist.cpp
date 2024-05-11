@@ -29,7 +29,6 @@ public:
             delete p;
             p = head_;
         }
-        delete head_;
     }
 
 public:
