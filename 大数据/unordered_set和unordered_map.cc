@@ -1,3 +1,10 @@
+/*
+有两个文件a和b，分别存放很多条ip地址，找出两个重复的ip并输出
+思路：将a中的ip地址存放在哈希表中，然后依次遍历b中的ip，每遍历一个ip地址，
+在哈希表中搜索一下，如果能搜到，即为两个文件重复的ip地址进行输出。
+哈希表查询，时间复杂度O(1)
+*/
+
 //unordered_set unordered_map 大数据去重
 #include <iostream>
 #include <vector>
